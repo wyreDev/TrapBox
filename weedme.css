@@ -1,0 +1,107 @@
+.login{
+    
+    
+    width: 250px;
+    height: 250px;
+    
+}
+.log{
+    color: white;
+    background-color: rgb(13, 160, 228);
+    border-style: none;
+    height: 40px;
+    width: 70px;
+    border-radius: 15px;
+    
+    font-size: large;
+    margin-left: 0px;
+    
+    
+}
+.log:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+   
+}
+.sighn:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.sighn{
+    color: white;
+    background-color: rgb(13, 160, 228);
+    border-style: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 15px;
+    
+    font-size: large;
+    
+    
+}
+h2{
+    
+    font-size: 3.6rem;
+    margin-left: -200px;
+    
+    
+}
+.hii{
+    background:
+        url('thumbnails/grade.jpg') center;
+    background-size: cover;
+    background-clip: text;
+    font-weight: 700;
+    color: transparent;
+    animation: animate 10s linear infinite;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@keyframes animate {
+    to{
+        background-position-x: -200px;
+    }
+}
+.logpage{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+
+}
+.flexend{
+    margin-right: 40px;
+    margin-left: 35px;
+    color: grey;
+}
+.join{
+    margin-left: 0px;
+    color: white;
+}
+.body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.details{
+    display: flex;
+    margin-top: 150px;
+}
+.username{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+
+}
+.inputa{
+    border-style: dotted;
+    border-color: red;
+    background-color: transparent;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+
+}
